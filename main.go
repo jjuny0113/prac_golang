@@ -1,7 +1,7 @@
 package main
 
 import (
-	slice "checkNum/slice"
+	method "checkNum/method"
 )
 
 func main() {
@@ -10,5 +10,7 @@ func main() {
 	// slice.Slice()
 	// slice.Pop()
 	// slice.Add()
-	slice.SortStruct()
+	// slice.SortStruct()
+	// method.Exam()
+	method.PointerAndValue()
 }
