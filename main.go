@@ -1,9 +1,5 @@
 package main
 
-import (
-	interfacechange "checkNum/interfacePrac/interfacechange"
-)
-
 func main() {
 
 	// timecheck.Init()
@@ -14,5 +10,17 @@ func main() {
 	// method.Exam()
 	// interfacePrac.StringerFunc()
 	// interfacePrac.PracValImpl()
-	interfacechange.Print()
+	// interfacechange.Print()
+	// advancefunc.Sum()
+	// var operator func(int, int) int
+	// operator = advancefunc.GetOperator("+")
+	// var result = operator(3, 4)
+	// fmt.Println(result)
+	// fn := func(a, b int) int {
+	// 	return a + b
+	// }
+	// result := fn(3, 4)
+	result := func(a, b int) int {
+		return a + b
+	}(3, 4)
 }
