@@ -1,5 +1,9 @@
 package main
 
+import (
+	errorhandling "checkNum/errorHandling"
+)
+
 func main() {
 
 	// timecheck.Init()
@@ -20,7 +24,9 @@ func main() {
 	// 	return a + b
 	// }
 	// result := fn(3, 4)
-	result := func(a, b int) int {
-		return a + b
-	}(3, 4)
+	// result := func(a, b int) int {
+	// 	return a + b
+	// }(3, 4)
+	// errorhandling.RegisterAccountPrint()
+	errorhandling.PanicFunc()
 }
