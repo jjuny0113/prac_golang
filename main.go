@@ -1,7 +1,7 @@
 package main
 
 import (
-	method "checkNum/method"
+	interfacechange "checkNum/interfacePrac/interfacechange"
 )
 
 func main() {
@@ -12,5 +12,7 @@ func main() {
 	// slice.Add()
 	// slice.SortStruct()
 	// method.Exam()
-	method.PointerAndValue()
+	// interfacePrac.StringerFunc()
+	// interfacePrac.PracValImpl()
+	interfacechange.Print()
 }
